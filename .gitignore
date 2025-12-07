@@ -52,11 +52,11 @@ tsconfig.tsbuildinfo
 # Misc
 .temp
 .tmp
+FRONTEND_API_GUIDE.md
 *.bak
 *.swp
 *~
 .turbo
-*.md
 
 # OS
 Thumbs.db
