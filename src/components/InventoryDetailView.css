@@ -1,0 +1,120 @@
+.stock-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .stock-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.stock-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  border: 2px solid #e0e0e0;
+}
+
+.stock-card-normal {
+  border-color: #1C6BBA;
+  background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
+}
+
+.stock-card-warning {
+  border-color: #f1c21b;
+  background: linear-gradient(135deg, #fffbeb 0%, #ffffff 100%);
+}
+
+.stock-card-gray {
+  background: #f4f4f4;
+}
+
+.stock-card-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #8d8d8d;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.stock-card-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #161616;
+  line-height: 1;
+}
+
+.stock-status {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.stock-status-warning {
+  background: #fffbeb;
+  border: 1px solid #f1c21b;
+  color: #6f4f00;
+}
+
+.stock-status-ok {
+  background: #e5f6ea;
+  border: 1px solid #24a148;
+  color: #0f5b2a;
+}
+
+.cost-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.cost-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #161616;
+  margin-bottom: 1rem;
+}
+
+.cost-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .cost-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cost-card {
+  background: linear-gradient(135deg, #f4f4f4 0%, #ffffff 100%);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.cost-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #8d8d8d;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.cost-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1C6BBA;
+}

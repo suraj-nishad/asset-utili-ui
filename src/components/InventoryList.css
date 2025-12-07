@@ -1,0 +1,26 @@
+.inventory-card {
+  margin-bottom: 1rem;
+  padding: 1.25rem !important;
+}
+
+.inventory-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.stock-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.low-stock-value {
+  color: var(--warning-color);
+  font-weight: 700;
+}
+
+.ml-8 {
+  margin-left: 0.5rem;
+}

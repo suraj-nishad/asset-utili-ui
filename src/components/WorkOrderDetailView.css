@@ -1,0 +1,16 @@
+/* Work Order detail view uses same styles as Asset detail view */
+.gap-8 {
+  gap: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-12 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-24 {
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,45 @@
+.filters-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .filters-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+.asset-card {
+  margin-bottom: 1rem;
+  padding: 1.25rem !important;
+}
+
+.asset-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.detail-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #525252;
+  min-width: 70px;
+}
+
+.mt-4 {
+  margin-top: 0.25rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: #8d8d8d;
+  font-size: 1rem;
+}
